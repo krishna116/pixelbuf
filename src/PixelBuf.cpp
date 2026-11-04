@@ -305,8 +305,8 @@ std::string PixelBuf::getPixelBufText(const Image& image, const Rect& rect, cons
 
   std::string code;
   code += "// Color format is " + format.toString() + "\n";
-  code += "#define " + CNAME + "_W = " + WIDTH + "\n";
-  code += "#define " + CNAME + "_H = " + HEIGHT + "\n";
+  code += "#define " + CNAME + "_W   " + WIDTH + "\n";
+  code += "#define " + CNAME + "_H   " + HEIGHT + "\n";
   code += "static const uint32_t " + cname + "[" + CNAME + "_W * " + CNAME + "_H] = {\n";
 
   constexpr int kValuesPerLine = 16;
