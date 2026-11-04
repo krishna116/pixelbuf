@@ -12,8 +12,8 @@
 
 ```C
 // Color format is 0xAABBGGRR
-#define IMAGE_W = 4
-#define IMAGE_H = 4
+#define IMAGE_W  4
+#define IMAGE_H  4
 static const uint32_t image[IMAGE_W * IMAGE_H] = {
   0x00FFFFFF, 0x00FFFFFF, 0x00FFFFFF, 0x00FFFFFF,
   0x00FFFFFF, 0x00FFFFFF, 0x00FFFFFF, 0x00FFFFFF,
