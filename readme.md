@@ -42,5 +42,5 @@ Options:
 
 ## Reference
 
-此工具使用stb(https://github.com/nothings/stb/blob/master/stb_image.h)读取图像，支持以下图像格式：JPEG/PNG/TGA/BMP...
+此工具使用[stb_image](https://github.com/nothings/stb/blob/master/stb_image.h)读取图像，支持以下图像格式：JPEG/PNG/TGA/BMP...
 
